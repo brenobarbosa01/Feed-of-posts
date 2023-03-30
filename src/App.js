@@ -5,7 +5,7 @@ import Modal from "react-modal"
 
 function App() {
   const [posts, setPosts] = useState([{
-    id: 1, nome: 'Breno Barbosa Costa', mensagem: 'Coloquei algumas funcionalidades a mais do que as pedidas no desafio, um modal é aberto ao tentar deletar um post para que você confirme a exclusão do mesmo, fiz com que o header suma ao scrollar para baixo e apareça ao scrollar para cima para demonstrar uso do UseEffect e adicionei um footer para retornar ao topo, tentei não exagerar muito ao acrescentar coisas, para não atrapalhar a avaliação de vocês, obrigado desde já.', imagem: 'https://thumbs.dreamstime.com/z/avatar-masculino-do-perfil-com-cabelo-marrom-81931493.jpg'
+    id: 1, nome: 'Breno Barbosa Costa', mensagem: 'Lorem ipsum dolor sit amet. Qui doloribus perspiciatis sed modi. Lorem ipsum dolor sit amet. Qui doloribus perspiciatis sed modi. Lorem ipsum dolor sit amet. Qui doloribus perspiciatis sed modi.', imagem: 'https://thumbs.dreamstime.com/z/avatar-masculino-do-perfil-com-cabelo-marrom-81931493.jpg'
   },
   { id: 2, nome: 'Manuela Oliveira', mensagem: 'Lorem ipsum dolor sit amet. Qui doloribus perspiciatis sed modi.', imagem: 'https://st2.depositphotos.com/2703645/11327/v/950/depositphotos_113271646-stock-illustration-female-avatar-icon.jpg' },]);
   const [nome, setNome] = useState("");
@@ -78,8 +78,8 @@ function App() {
     <div className="container">
       <header style={{ display: showHeader ? "block" : "none" }} className="container-header">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-        <h1>buildbox</h1>
-        <h3 className="h3-webchallenge">WEB CHALLENGE</h3>
+        <h1>Simulador de Posts</h1>
+        <h3 className="h3-webchallenge">por Breno Barbosa</h3>
       </header>
 
       <form className="form" onSubmit={handleSubmit}>
